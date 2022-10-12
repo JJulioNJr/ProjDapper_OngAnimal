@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.StrongName" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdocaoModel\AdocaoModel.csproj" />
+    <ProjectReference Include="..\AnimalModel\AnimalModel.csproj" />
+    <ProjectReference Include="..\ConfigDataBase\ConfigDataBase.csproj" />
+    <ProjectReference Include="..\PessoaModel\PessoaModel.csproj" />
+  </ItemGroup>
+
+</Project>
